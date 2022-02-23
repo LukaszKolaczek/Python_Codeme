@@ -5,5 +5,5 @@ masa = int(masa)
 wzrost = input("podaj wzrost [m]")
 wzrost = float(wzrost)
 
-print("twoje bmi to:", masa * (wzrost**2))
+print("twoje bmi to:", masa / (wzrost**2))
 
