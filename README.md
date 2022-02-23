@@ -1,3 +1,3 @@
 # Python Codeme 
-to repozytorium bedzie zawieralo cod kursu CODEME
-- 01 intro
+this repository contains Python coding learning
+- 01 the basics
