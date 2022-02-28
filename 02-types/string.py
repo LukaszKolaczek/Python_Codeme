@@ -1,15 +1,11 @@
-# examples
-# txt = "Lukasz"
-# print( len(txt))
-# print(txt[1])
-# print(txt[0:6:2])
-# jak zrobimy [::2] to będzie całość
+# Stwórz zmienną przechowującą
+# wyraz o długości nieparzystej większej niż 7
+# i zwróć łańcuch złożony z trzech środkowych znaków danego ciągu.
 
-#jak sprawdzic czy ciag znakow sklada sie tylko z cyfr
 
-# Stwórz zmienną przechowującą wyraz o długości nieparzystej większej niż 7 i zwróć
-# łańcuch złożony z trzech środkowych znaków danego ciągu.
+txt = "LukaszKolaczek-" #---> 15 znaków
+mid_txt = len(txt) //2 #---> 7 znaków
+first_mid_txt = mid_txt -1 #---> 6 znak
+secound_mid_txt = mid_txt +1  #---->8 znak
 
-txt = "0123456"
-dlugosc = txt - 1
-print(dlugosc // 2)
+print(txt[first_mid_txt:secound_mid_txt +1]) # txt[6:9]to potrzbujemy
